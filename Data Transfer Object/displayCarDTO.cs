@@ -15,8 +15,9 @@ namespace RentCar
         public decimal pricePerDay { get; set; }
         public decimal pricePerDayIfDalay { get; set; }
         public int typeId { get; set; }
-        public int mileage { get; set; }
         public string image { get; set; }
+        public int mileage { get; set; }
+
         public bool properForRent { get; set; }
         public bool avilable { get; set; }
         public int number { get; set; }
