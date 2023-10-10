@@ -9,7 +9,7 @@ namespace RentCar
     public class UserDTO
     {
             public int id { get; set; }
-
+//
             [Required(ErrorMessage = "Missing First Name")]
             // [StringLength(30, MinimumLength = 2, ErrorMessage = "Name must be 2 to 30 chars")]
             [MinLength(2, ErrorMessage = "First Name must be minimum 2 chars")]
